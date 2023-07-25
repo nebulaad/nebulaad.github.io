@@ -1,32 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-body {
-  background: #0a0d0f;
-  font-family: 'Lato', sans-serif;
-  color: #fff;
-}
+/* Landing Zone */
+
+html {
+  width: 100%;
+  max-height: 100%;
+  background: url('./background00.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; }
+  body {
+    width: 85%;
+    min-height: 100vh;
+    position: static;
+    overflow-y: auto;
+    margin: 0 auto;
+    background: #0C0C0E; }
+    header {
+      max-width: 100%;
+      height: 20vh;
+      overflow: hidden;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 170%;
+      background: rgba(255, 255 , 255, 0.75%);
+      position: relative; }
+      nav {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        align-items: center; }
+        nav a {
+          text-decoration: none;
+          color: #fff;
+          font-family: 'Unica One', sans-serif;
+          font-size: 1.5em;
+          margin-right: 1em; }
+      h1 {
+        font-family: 'Unica One', sans-serif;
+        color: #0C0C0E;
+        text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+        margin: 0 auto; }
+    .content {
+      width: 93%;
+      height: 100%;
+      margin: 0 auto;
+      padding: 10px;
+      position: static;
+      background: rgba(255, 255, 255, 0.5%);
+      font-family: 'Open Sans', sans-serif;
+      overflow: auto;
+      color: #fff; }
+
+/* BG3 Page */
 
 table {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
-  margin-top: 7.5em;
-  margin-bottom: 7.5em;
 }
   th { outline: 1px solid #fff; font-size: 1em; padding: 10px; }
     .head {
       text-align: left;
       padding-left: 10px;
       font-size: 1.2em;
+      font-family: 'Unica One', sans-serif;
     }
       #subclass01, #subclass02 { display: none; }
-
 button {
   background: none;
   outline: none;
   text-decoration: none;
   cursor: pointer;
-  color: #fff;
-}
-  button:focus {
-    outline: none;
-  }
+  color: #fff; }
