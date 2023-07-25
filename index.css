@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  background: #0a0d0f;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+table {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 7.5em;
+  margin-bottom: 7.5em;
+}
+  th { outline: 1px solid #fff; font-size: 1em; padding: 10px; }
+    .head {
+      text-align: left;
+      padding-left: 10px;
+      font-size: 1.2em;
+    }
+      #subclass01, #subclass02 { display: none; }
+
+button {
+  background: none;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+  button:focus {
+    outline: none;
+  }
