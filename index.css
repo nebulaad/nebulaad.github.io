@@ -52,6 +52,7 @@ html {
       width: 93%;
       height: 100%;
       margin: 0 auto;
+      margin-bottom: 3em;
       padding: 10px;
       position: static;
       background: rgba(255, 255, 255, 0.5%);
