@@ -48,32 +48,38 @@ html {
         color: #0C0C0E;
         text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
         margin: 0 auto; }
-    .content {
+    .content, .container {
       width: 93%;
       height: 100%;
       margin: 0 auto;
-      margin-bottom: 3em;
       padding: 10px;
       position: static;
       background: rgba(255, 255, 255, 0.5%);
       font-family: 'Open Sans', sans-serif;
       overflow: auto;
       color: #fff; }
+      .container {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center; }
+      .sidea, .sideb {
+        width: 45%;
+        margin: 3%;
+      }
 
 /* BG3 Page */
 
 table {
   width: 100%;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
   th { outline: 1px solid #fff; font-size: 1em; padding: 10px; }
     .head {
       text-align: left;
       padding-left: 10px;
       font-size: 1.2em;
-      font-family: 'Unica One', sans-serif;
-    }
-      #subclass01, #subclass02 { display: none; }
+      font-family: 'Unica One', sans-serif; }
+    #subclass01, #subclass02 { display: none; }
 button {
   background: none;
   outline: none;
